@@ -92,7 +92,7 @@ function App() {
 
   return (
     <div className="bg-gray-800 flex items-center justify-center w-screen h-screen py-10" style={{height: divStyle}}>
-      <div className="flex w-3/4 min-h-full rounded-3xl shadow-lg m-auto bg-gray-100">
+      <div className="flex w-3/4 min-h-full rounded-3xl shadow-lg m-auto bg-gray-100 mobile-flex">
         {/* form card section */}
         <div className="form-container">
           <div className="flex items-center justify-center">
@@ -132,7 +132,7 @@ function App() {
         </div>
 
         {/* info card section */}
-        <div className="w-2/4 p-5">
+        <div className="w-2/4 p-5 mobile_details_width">
           <Header />
           <div className="flex flex-col my-10">
             {weatherData.length === 0 ? 
