@@ -86,7 +86,7 @@ function App() {
   useEffect(() => {
     console.log("In use Effect")
 
-    // getWeather('Toronto')
+    getWeather('Toronto')
   }, [])
   
 
