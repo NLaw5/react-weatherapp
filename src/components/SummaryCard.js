@@ -14,7 +14,7 @@ function SummaryCard({day}) {
                     <img src={day_icon} className="w-1/4 inline" />
                 </p>
                 <p className="text-gray-400 text-xs uppercase tracking-widest">{day.weather[0].description}</p>
-                <p className="tracking-wider">{moment(day.dt_txt).format("dddd hh:mm")}am</p>
+                <p className="tracking-wider">{moment(day.dt_txt).format("dddd hh:mm a")}</p>
             </div>
         </li>
     )
